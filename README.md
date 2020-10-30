@@ -2,13 +2,16 @@
 
 ## Linear Regression to Predict MPG
 Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-    * Based on the results of the t-test we can see that intercept, vehicle length, ground clearance all provide a non-random amount of variance to the mpg values. The p-value for each variable is less than the assumed signifance level of 0.05.
+   
+   * Based on the results of the t-test we can see that intercept, vehicle length, ground clearance all provide a non-random amount of variance to the mpg values. The p-value for each variable is less than the assumed signifance level of 0.05.
 
 Is the slope of the linear model considered to be zero? Why or why not?
-    * The slope of the linear model is not considered to be zero. The p-values are less than their significance levels which means there is a statistical linear relationship between the independent variable X and the dependent variables. Based on this fact we can state that there is sufficent evidence to reject our null hypothesis
+   
+   * The slope of the linear model is not considered to be zero. The p-values are less than their significance levels which means there is a statistical linear relationship between the independent variable X and the dependent variables. Based on this fact we can state that there is sufficent evidence to reject our null hypothesis
 
 Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
-    * Yes, the r-squared value is 0.71 which means that about 71% of all mpg values will be correct when using this linear model. Although, by using more dependent variables we could more accurately predice mpg of MechaCar prototpyes
+   
+   * Yes, the r-squared value is 0.71 which means that about 71% of all mpg values will be correct when using this linear model. Although, by using more dependent variables we could more accurately predice mpg of MechaCar prototpyes
 
 ## Summary Statistics on Suspension Coils
 The mean and median for all lots are nearly identical which means the data is normally distributed with 0 skewness. Lot 1 & 3 have large standard deviations which indicated that the datapoints are spread out over a large range of values
