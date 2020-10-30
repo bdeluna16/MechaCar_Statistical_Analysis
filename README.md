@@ -13,13 +13,21 @@ Does this linear model predict mpg of MechaCar prototypes effectively? Why or wh
    
    * Yes, the r-squared value is 0.71 which means that about 71% of all mpg values will be correct when using this linear model. Although, by using more dependent variables we could more accurately predice mpg of MechaCar prototpyes
 
+![image](https://user-images.githubusercontent.com/67936161/97669860-443dda00-1a42-11eb-8c36-620e43a4fb98.png)
+
 ## Summary Statistics on Suspension Coils
 The mean and median for all lots are nearly identical which means the data is normally distributed with 0 skewness. Lot 1 & 3 have large standard deviations which indicated that the datapoints are spread out over a large range of values
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Lot 1 & 2 meet those specifications while lot 3 does not.
 
+![image](https://user-images.githubusercontent.com/67936161/97669879-4ef86f00-1a42-11eb-9a9e-7f3167655ce7.png)
+
+![image](https://user-images.githubusercontent.com/67936161/97669871-49028e00-1a42-11eb-8206-8a7d910fb971.png)
+
 ## T-Tests on Suspension Coils
 The t-tests for all 3 lots yieled the p-values below. Assuming a signifance level of 0.05 we see that the p-values for all 3 lots are greater than 0.05. Because the p-values are greater than the 0.05 signifance level we do not have sufficient evidence to reject the null hypothesis and can say that the sample means of each lot is similar to the population mean.
+
+![image](https://user-images.githubusercontent.com/67936161/97669889-53bd2300-1a42-11eb-9d11-972617ab0950.png)
 
 ## Study Design: MechaCar v Competition
 One way we can measure how MechaCars performs against the competition is to measure how much impact safety ratings has on a consumer's decision to buy a car.
